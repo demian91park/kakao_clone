@@ -1,0 +1,18 @@
+@import "reset.css";
+@import "status-bar.css";
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti&display=swap');
+@import "header.css";
+body{
+    background-color: white;
+    padding: 10px 20px;
+    color: #020202;
+    font-family: 'Calligraffitti', cursive;
+}
+
+.status-bar i {
+    font-size: 14px;
+    opacity: 0.7; /* 투명도 어려우면 컬러를 대신쓸슀음"*/
+}
+.status-bar .status-bar__battery-level{
+    margin-left: 5px;
+}
