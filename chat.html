@@ -9,12 +9,8 @@
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
         <link rel="stylesheet" href="style.css">
         <title>Settings | Kakao Clone</title>
-    <style>
-        img{
-            width: 100px;
-            height: 100px;
-        }
-    </style>
+  
+
 </head>
 
 <body>
@@ -43,16 +39,16 @@
             <span class="header__icon">
                 <i class="fas fa-search"></i>
             </span>
-            <div class="header__icon">
+            <span class="header__icon">
                 <i class="fas fa-bars"></i>
-            </div>
+            </span>
         </div>
     </header>
     <main class="chat">
         <ul class="chat__messages">
             <span class="chat__timestamp">Firday, january 15, 2020</span>
             <li class="incoming-message message">
-                <img src="./29186970_192424418189372_9050327100124299264_n - 복사본.jpg" class="g-avatar message">
+                <img src="./29186970_192424418189372_9050327100124299264_n - 복사본.jpg" class="m-avatar message">
                 <div class="message__content">
                     <span class="message__author">My babe</span>
                     <div class="message__bubble">
@@ -75,20 +71,23 @@
     </main>
     <div class="chat__write">
         <div class="chat__write-column">
-            <i class="far fa-plus-square"></i>
+          <i class="far fa-plus-square"></i>
         </div>
         <div class="chat__write-column">
-            <input type="text" placeholder="send message"/>
+          <input
+            type="text"
+            placeholder="Send message"
+            class="chat__write-input"
+          />
         </div>
         <div class="chat__write-column">
-            <span class="chat__write-icon">
-                <i class="far fa-smile-wink"></i>
-            </span>
-            <span class="chat__write-icon">
-                <i class="fas fa-microphone"></i>
-            </span>
+          <span class="chat__write-icon">
+            <i class="far fa-smile-wink"></i>
+          </span>
+          <span class="chat__write-icon">
+            <i class="fas fa-microphone"></i>
+          </span>
         </div>
-    </div>
-</body>
-
-</html>
+      </div>
+    </body>
+  </html>
